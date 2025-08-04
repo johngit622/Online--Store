@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+header {
+  display: block;
+  padding: auto;
+  font-family: "Roboto";
+  background-color: aqua;
+  color: antiquewhite;
+  font-size: 50;
+  text-align: center;
+}
+h1 {
+  font-size: 50px;
+  background-color: aqua;
+  color: black;
+  text-align: center;
+  padding: 0px;
+}
+
+h2 {
+  font-size: 50px;
+  background-color: aqua;
+  color: black;
+  text-align: center;
+  padding: 10px;
+}
+
+h3 {
+  font-size: 50px;
+  background-color: aqua;
+  color: black;
+  text-align: center;
+  padding: 10px;
+}
+
+h4 {
+  font-size: 50px;
+  background-color: aqua;
+  color: black;
+  text-align: center;
+  padding: 10px;
+}
+
+h5 {
+  font-size: 50px;
+  background-color: aqua;
+  color: black;
+  text-align: center;
+  padding: 10px;
+}
+footer {
+  font-size: 50px;
+  background-color: aqua;
+  color: black;
+  text-align: center;
+  padding: 10px;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  h1[grid-template-columns: 1o0px;] h2 {
+    grid-template-columns: 100px;
+  }
+}
